@@ -33,7 +33,7 @@ nav>ul>li {
 
 }
 
-nav>button {
+.btn-hed {
     background-color: #30B868;
     border: none;
     border-radius: 5px;
@@ -48,11 +48,117 @@ nav>button {
     font-weight: 300;
 }
 
+.btn-hed:hover {
+    background-color: rgb(235, 196, 97);
+}
+
+
 /* Banner Section style */
 
 #hero-banner {
     background-image: url('images/hero-bg.png');
-    width: 1220px;
-    height: 670px;
+    width: 1230px;
+    height: 470px;
     margin-top: 12px;
+    text-align: center;
+
+}
+
+#button-banner-top {
+    margin-top: 120px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 15px;
+    width: 165px;
+    height: 23px;
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+}
+
+#button-b {
+    color: rgb(78, 163, 113);
+    font-family: Inter;
+    font-weight: 500;
+
+
+}
+
+#circel {
+
+
+    width: 8px;
+    height: 8px;
+    background-color: #2ecc71;
+    border: 3px solid #b4e9ca;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 2px;
+
+
+}
+
+#button-banner-top:hover {
+    background-color: rgb(235, 196, 97);
+}
+
+.hero-title {
+    font-family: Inter;
+
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 14px;
+
+}
+
+.hero-note {
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 7px;
+}
+
+#button-banner-left {
+    background-color: #30B868;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 33px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-weight: 300;
+    padding-left: 12px;
+    margin-right: 7px;
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+#button-banner-left:hover {
+    background-color: rgb(235, 196, 97);
+
+}
+
+#button-banner-right {
+    width: 150px;
+    height: 33px;
+    background-color: rgba(135, 132, 132, 0.082);
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-weight: 300;
+    padding-left: 20px
+
+
+}
+
+#button-banner-right:hover {
+    background-color: rgb(235, 196, 97);
+    
+
 }
