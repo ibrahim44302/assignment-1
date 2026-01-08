@@ -1,4 +1,4 @@
-/* header styles */
+/* Navbar style */
 
 nav>img {
     width: 120px;
@@ -30,7 +30,7 @@ nav>ul>li {
     margin-right: 40px;
     font-family: Inter;
     font-weight: 500;
-    
+
 }
 
 nav>button {
@@ -39,10 +39,20 @@ nav>button {
     border-radius: 5px;
     width: 130px;
     height: 35px;
-    
+
 }
-.button-p{
+
+.button-p {
     color: rgba(255, 255, 255, 1);
     font-family: Inter;
     font-weight: 300;
+}
+
+/* Banner Section style */
+
+#hero-banner {
+    background-image: url('images/hero-bg.png');
+    width: 1220px;
+    height: 670px;
+    margin-top: 12px;
 }
