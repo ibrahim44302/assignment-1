@@ -121,7 +121,7 @@ nav>ul>li {
     margin: 7px;
 }
 
-#button-banner-left {
+.button-banner-left {
     background-color: #30B868;
     border: none;
     border-radius: 5px;
@@ -138,7 +138,7 @@ nav>ul>li {
     gap: 6px;
 }
 
-#button-banner-left:hover {
+.button-banner-left:hover {
     background-color: rgb(235, 196, 97);
 
 }
@@ -251,7 +251,7 @@ nav>ul>li {
     gap: 60px;
     width: 1200px;
     height: 510px;
-    padding: 70px 50px 50px 30px;
+    padding: 60px 60px 50px 60px;
 
 
 }
@@ -296,21 +296,56 @@ nav>ul>li {
     height: 18px;
     margin-top: 20px;
 }
-.cheak-img-2{
+
+.cheak-img-2 {
     width: 18px;
     height: 18px;
     margin-top: 0px;
 }
+
 .img-text {
     color: var(--Style, rgba(0, 25, 49, 1));
     font-family: Inter;
     font-size: 13px;
     font-weight: 400;
 }
+
 .img-text-2 {
     color: var(--Style, rgba(0, 25, 49, 1));
     font-family: Inter;
     font-size: 13px;
     font-weight: 400;
     margin-top: 0px;
+}
+
+.button-early {
+    background-color:#30B868;
+    border: none;
+    border-radius: 3px;
+    width: 140px;
+    height: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-weight: 300;
+    padding-left: 12px;
+    margin-right: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.button-early:hover {
+    background-color: rgb(235, 196, 97);
+
+}
+
+#early-access-section {
+    text-align: center;
+    border-radius: 12px;
+    background: rgba(247, 246, 242, 1);
+    padding-top: 30px;
+    margin-left: 60px;
+    height: 200px;
 }
