@@ -3,14 +3,13 @@
 nav>img {
     width: 120px;
     height: 50px;
-
-
 }
 
 header {
     margin-top: 12px;
-    margin-left: 70px;
+    margin-left: 140px;
     margin-right: 70px;
+    width: 1000px;
 }
 
 nav {
@@ -22,7 +21,6 @@ nav {
 nav>ul {
 
     display: flex;
-
 }
 
 nav>ul>li {
@@ -30,7 +28,6 @@ nav>ul>li {
     margin-right: 40px;
     font-family: Inter;
     font-weight: 500;
-
 }
 
 .btn-hed {
@@ -39,7 +36,6 @@ nav>ul>li {
     border-radius: 5px;
     width: 130px;
     height: 35px;
-
 }
 
 .button-p {
@@ -61,7 +57,6 @@ nav>ul>li {
     height: 490px;
     margin-top: 12px;
     text-align: center;
-
 }
 
 #button-banner-top {
@@ -80,13 +75,9 @@ nav>ul>li {
     color: rgb(78, 163, 113);
     font-family: Inter;
     font-weight: 500;
-
-
 }
 
 #circel {
-
-
     width: 8px;
     height: 8px;
     background-color: #2ecc71;
@@ -94,8 +85,6 @@ nav>ul>li {
     border-radius: 50%;
     display: inline-block;
     margin-right: 2px;
-
-
 }
 
 #button-banner-top:hover {
@@ -104,12 +93,10 @@ nav>ul>li {
 
 .hero-title {
     font-family: Inter;
-
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
     margin: 14px;
-
 }
 
 .hero-note {
@@ -152,14 +139,11 @@ nav>ul>li {
     color: rgba(255, 255, 255, 1);
     font-family: Inter;
     font-weight: 300;
-    /*padding-left: 20px*/
-
 
 }
 
 #button-banner-right:hover {
     background-color: rgb(235, 196, 97);
-
 
 }
 
@@ -170,13 +154,12 @@ nav>ul>li {
 }
 
 #notes-section-title {
-    color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+    color: rgba(0, 25, 49, 1);
     font-family: Inter;
     font-size: 35px;
     font-weight: 600;
     line-height: 30px;
     margin: 8px;
-
 }
 
 .note-section-note {
@@ -191,24 +174,17 @@ nav>ul>li {
 /* card section */
 
 .card {
-
     background: rgba(249, 85, 85, 1);
     height: 30px;
     width: 30px;
     border-radius: 50%;
     margin-left: 75px;
-
-
-
 }
 
 .card-img {
-
     padding: 7px;
     height: 15px;
     width: 15px;
-
-
 }
 
 .card-1 {
@@ -234,7 +210,6 @@ nav>ul>li {
 .card-title {
     margin: 10px;
     font-weight: 700;
-
 }
 
 #card-section {
@@ -253,8 +228,6 @@ nav>ul>li {
     height: 410px;
     margin-left: 155px;
     padding: 60px 60px 50px 60px;
-
-
 }
 
 #brain-section-img {
@@ -270,7 +243,6 @@ nav>ul>li {
     line-height: 30px;
     margin-bottom: 17px;
     margin-top: 0px;
-
 }
 
 .brain-section-text {
@@ -289,7 +261,6 @@ nav>ul>li {
 .brain-section-img {
     display: flex;
     gap: 5px;
-
 }
 
 .cheak-img {
@@ -389,7 +360,7 @@ nav>ul>li {
 hr {
     width: 825px;
     margin-left: 210px;
-    border: 1px solid rgb(180, 182, 186)
+    border: 1px solid rgb(225, 229, 236)
 }
 
 #copy {
@@ -399,5 +370,29 @@ hr {
     font-size: 12px;
     font-weight: 300;
 
-    
+
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    color: rgba(0, 0, 0, 1);
+    border-radius: 50%;
+    font-size: 18px;
+
+}
+
+.icon:hover{
+    background-color: blue;
+   
+}
+
+.footer-icon {
+    display: flex;
+    gap: 12px;
 }
